@@ -792,7 +792,7 @@ footer {
     }
 
     .map {
-        margin-left: 56px;
+        margin: auto;
         height: 350px;
     }
 
