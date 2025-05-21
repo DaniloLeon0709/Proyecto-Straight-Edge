@@ -768,9 +768,6 @@ footer {
         padding-bottom: 0 !important;
         margin-bottom: 0 !important;
     }
-    .card-youtube .card-content {
-        padding-left: 0;
-    }
 
     .card-tiktok, .card-youtube {
         height: 100%;
