@@ -771,6 +771,8 @@ footer {
 
     .card-tiktok, .card-youtube {
         height: 100%;
+        padding: 1rem;
+        border-radius: 10px;
     }   
 
     .banner {
