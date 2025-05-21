@@ -80,6 +80,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var video1 = document.getElementById('video-container');
 
     function checkScroll(video, offset = 0) {
+        if (!video) return; // <-- Añade esta línea
         var rect = video.getBoundingClientRect();
         var isVisible = (rect.top >= -offset && rect.bottom <= window.innerHeight + offset);
         if (isVisible) {
