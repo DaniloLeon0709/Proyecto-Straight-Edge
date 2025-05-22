@@ -41,7 +41,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: var(--primary-color);
+    background-color: black;
     box-shadow: 0 2px 10px rgb(0, 0, 0);
 }
 
